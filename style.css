@@ -1,0 +1,53 @@
+body {
+  color: floralwhite;
+  font-family: fantasy;
+  font-size: xx-large;
+  background-color: beige;
+  gap: 15px;
+  padding: 43vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contatore {
+  background-color: #575555;
+  border: solid #9b9b9b 5px;
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-family: fantasy;
+  color: white;
+}
+#guest {
+  display: flex;
+  color: black;
+  min-width: 186px;
+  font-family: monospace;
+  font-size: xx-large;
+  justify-content: center;
+}
+input {
+  height: 3vh;
+  border-radius: 10px;
+  border: solid #fe8017c2 5px;
+}
+button {
+  background-color: #fe8017c2;
+  color: floralwhite;
+  display: flex;
+  font-family: fantasy;
+  font-size: xx-large;
+  height: 6vh;
+  width: 15vw;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
